@@ -1,0 +1,14 @@
+package com.example.employeeapp;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class EmployeeList extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_employee_list);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+}
